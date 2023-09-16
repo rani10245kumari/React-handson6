@@ -2,7 +2,7 @@ import React from "react";
 import Students from "./Student";
 import Contact from "./Contact";
 import Home from "./Home";
-import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import { useState } from "react";
 import Store from "./Store";
 import Addstu from "./AddStudent";
