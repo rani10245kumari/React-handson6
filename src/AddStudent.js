@@ -23,10 +23,11 @@ function Addstu() {
         Navigation("/Students");
     };
     return (
-        <div className="student">
-            <h1>Edit Your Data</h1>
+        <div className="studentDetail">
+            <h1>ADD NEW STUDENT</h1>
             <label htmlFor="name" />
             <input
+                className="form"
                 type="text"
                 id="name"
                 name="Name"
@@ -38,6 +39,7 @@ function Addstu() {
 
             <label htmlFor="age" />
             <input
+                className="form"
                 type="number"
                 id="age"
                 name="Age"
@@ -49,6 +51,7 @@ function Addstu() {
 
             <label htmlFor="name" />
             <input
+                className="form"
                 type="text"
                 id="name"
                 name="Course"
@@ -60,6 +63,7 @@ function Addstu() {
 
             <label htmlFor="name" />
             <input
+                className="form"
                 type="text"
                 id="name"
                 name="Batch"
@@ -68,9 +72,9 @@ function Addstu() {
             />
             <br></br>
             <br></br>
-            <div id="buttons">
-                <button onClick={() => Navigation("/Students")}>Cancel</button>
-                <button onClick={handleSubmit}>Update</button>
+            <div id="buttons" className="update">
+                <button onClick={() => Navigation("/Students")} className="Cancel">Cancel</button>
+                <button onClick={handleSubmit} className="update2">Update</button>
             </div>
         </div>
     );
