@@ -19,8 +19,8 @@ function Editstu() {
     };
     console.log(Obj);
 
-    const handleChange = (e) => {
-        Obj[e.target.name] = e.target.value;
+    const handleChange = (a) => {
+        Obj[a.target.name] = a.target.value;
     };
 
     const handleSubmit = () => {
@@ -29,10 +29,11 @@ function Editstu() {
         Navigate(-1);
     };
     return (
-        <div className="student">
+        <div className="studentDetail">
             <h1>Edit Your Data</h1>
             <label htmlFor="name" />
             <input
+                className="form"
                 type="text"
                 id="name"
                 name="Name"
@@ -44,6 +45,7 @@ function Editstu() {
 
             <label htmlFor="age" />
             <input
+                className="form"
                 type="number"
                 id="age"
                 name="Age"
@@ -55,6 +57,7 @@ function Editstu() {
 
             <label htmlFor="name" />
             <input
+                className="form"
                 type="text"
                 id="name"
                 name="Course"
@@ -66,17 +69,22 @@ function Editstu() {
 
             <label htmlFor="name" />
             <input
+                className="form"
                 type="text"
                 id="name"
                 name="Batch"
                 placeholder="Enter your batch"
                 onChange={handleChange}
             />
+
             <br></br>
             <br></br>
-            <div id="buttons">
-                <button onClick={() => Navigate("/Addstudents")}>Cancel</button>
-                <button onClick={handleSubmit}>Update</button>
+            <div id="buttons" className="update">
+                <button onClick={() => Navigate("/Addstudents")} className="Cancel">Cancel</button>
+
+
+                <button onClick={handleSubmit} className="update2">Update</button>
+
             </div>
         </div>
     );
