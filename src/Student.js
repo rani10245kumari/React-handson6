@@ -29,7 +29,7 @@ export default function Students() {
                 <tbody>
                     {Receive.map((item, index) => (
                         <tr key={index}>
-                            <td>{item.name}</td>
+                            <td>{item.Name}</td>
                             <td>{item.Age}</td>
                             <td>{item.Course}</td>
                             <td>{item.Batch}</td>
