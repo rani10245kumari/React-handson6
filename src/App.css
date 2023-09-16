@@ -9,8 +9,8 @@ body {
   display: flex;
   height: 100px;
   justify-content: space-evenly;
-  background-color: rgb(171, 133, 182);
-  font-size: 32px;
+  background-color: rgb(204, 142, 204);
+  font-size: 36px;
   font-family: 🏸;
   margin-top: 5px;
   justify-items: center;
@@ -72,4 +72,58 @@ a {
   font-size: larger;
   background-color: rgb(219, 184, 203);
   text-align: center;
+}
+
+.studentDetail {
+  position: absolute;
+  left: 30%;
+  top: 110px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 500px;
+  width: 700px;
+
+}
+
+.form {
+  height: 52px;
+  width: 280px;
+  font-size: 26px;
+  text-align: center;
+  border: 2px solid rgb(8, 8, 65);
+  border-radius: 10px;
+  background-color: thistle;
+}
+
+.update {
+
+  width: 400px;
+  position: absolute;
+  top: 500px;
+  left: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+}
+
+.Cancel {
+  height: 40px;
+  width: 180px;
+  font-size: 22px;
+  border: 2px solid rgb(3, 14, 44);
+  border-radius: 20px;
+  color: rgb(82, 4, 85);
+  background-color: rgb(236, 157, 236);
+}
+
+.update2 {
+  height: 40px;
+  width: 180px;
+  font-size: 22px;
+  border: 2px solid rgb(3, 14, 44);
+  border-radius: 20px;
+  color: rgb(82, 4, 85);
+  background-color: rgb(236, 157, 236);
 }
