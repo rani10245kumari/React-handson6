@@ -10,14 +10,14 @@ import EditStu from "./EditStudent";
 const Display = () => {
     const [StdData, setStdData] = useState([
 
-        { id: 1, name: "harry", Age: 22, Course: "Mern", Batch: "October", Change: "Edit" },
-        { id: 2, name: "Nancy", Age: 24, Course: "Mern", Batch: "February", Change: "Edit" },
-        { id: 3, name: "Priyanka", Age: 22, Course: "Mern", Batch: "March", Change: "Edit" },
-        { id: 4, name: "RANI", Age: 22, Course: "Mern", Batch: "APRIL", Change: "Edit", },
-        { id: 5, name: "RAHUL", Age: 22, Course: "Mern", Batch: "April", Change: "Edit" },
-        { id: 6, name: "Priti", Age: 22, Course: "Mern", Batch: "March", Change: "Edit" },
-        { id: 7, name: "Pritti", Age: 22, Course: "Mern", Batch: "March", Change: "Edit" },
-        { id: 8, name: "Priyanka", Age: 22, Course: "Mern", Batch: "March", Change: "Edit" },
+        { id: 1, Name: "PIHU", Age: 32, Course: "Mern", Batch: "October", Change: "Edit" },
+        { id: 2, Name: "MOMO", Age: 14, Course: "Mern", Batch: "February", Change: "Edit" },
+        { id: 3, Name: "Priyanka", Age: 22, Course: "Mern", Batch: "March", Change: "Edit" },
+        { id: 4, Name: "RANI", Age: 16, Course: "Mern", Batch: "APRIL", Change: "Edit", },
+        { id: 5, Name: "RAHUL", Age: 26, Course: "Mern", Batch: "April", Change: "Edit" },
+        { id: 6, Name: "Priti", Age: 23, Course: "Mern", Batch: "March", Change: "Edit" },
+        { id: 7, Name: "HONEY", Age: 24, Course: "Mern", Batch: "March", Change: "Edit" },
+        { id: 8, Name: "SONU", Age: 18, Course: "Mern", Batch: "March", Change: "Edit" },
     ]);
 
     return (
