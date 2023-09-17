@@ -25,56 +25,65 @@ function Addstu() {
     return (
         <div className="studentDetail">
             <h1>ADD NEW STUDENT</h1>
-            <label htmlFor="name" />
-            <input
-                className="form"
-                type="text"
-                id="name"
-                name="Name"
-                placeholder="Enter your name"
-                onChange={handleChange}
-            />
+
+            <fieldset className="form">
+                <legend>NAME</legend>
+                <label htmlFor="name" />
+                <input
+                    type="text"
+                    id="name"
+                    name="Name"
+                    placeholder="Enter your name"
+                    onChange={handleChange}
+                />
+            </fieldset>
             <br></br>
             <br></br>
 
-            <label htmlFor="age" />
-            <input
-                className="form"
-                type="number"
-                id="age"
-                name="Age"
-                placeholder="Enter your age"
-                onChange={handleChange}
-            />
+            <fieldset className="form">
+                <legend>AGE</legend>
+                <label htmlFor="age" />
+                <input
+                    type="number"
+                    id="age"
+                    name="Age"
+                    placeholder="Enter your age"
+                    onChange={handleChange}
+                />
+            </fieldset>
+            <br></br>
+            <br></br>
+            <fieldset className="form">
+                <legend>COURSE</legend>
+                <label htmlFor="name" />
+                <input
+
+                    type="text"
+                    id="name"
+                    name="Course"
+                    placeholder="Enter your course"
+                    onChange={handleChange}
+                />
+            </fieldset>
             <br></br>
             <br></br>
 
-            <label htmlFor="name" />
-            <input
-                className="form"
-                type="text"
-                id="name"
-                name="Course"
-                placeholder="Enter your course"
-                onChange={handleChange}
-            />
-            <br></br>
-            <br></br>
-
-            <label htmlFor="name" />
-            <input
-                className="form"
-                type="text"
-                id="name"
-                name="Batch"
-                placeholder="Enter your batch"
-                onChange={handleChange}
-            />
+            <fieldset className="form">
+                <legend>BATCH</legend>
+                <label htmlFor="name" />
+                <input
+                    type="text"
+                    id="name"
+                    name="Batch"
+                    placeholder="Enter your batch"
+                    onChange={handleChange}
+                />
+            </fieldset>
             <br></br>
             <br></br>
             <div id="buttons" className="update">
                 <button onClick={() => Navigation("/Students")} className="Cancel">Cancel</button>
-                <button onClick={handleSubmit} className="update2">Update</button>
+                <button onClick={handleSubmit} className="update2">ADD</button>
             </div>
         </div>
     );
