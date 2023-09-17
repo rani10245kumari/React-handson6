@@ -7,7 +7,7 @@ import { useState } from "react";
 import Store from "./Store";
 import Addstu from "./AddStudent";
 import EditStu from "./EditStudent";
-const Display = () => {
+const ROUTING = () => {
     const [StdData, setStdData] = useState([
 
         { id: 1, Name: "PIHU", Age: 32, Course: "Mern", Batch: "October", Change: "Edit" },
@@ -38,4 +38,4 @@ const Display = () => {
         </div>
     );
 }
-export default Display
+export default ROUTING
