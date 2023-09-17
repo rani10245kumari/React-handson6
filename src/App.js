@@ -1,9 +1,9 @@
 import "./App.css";
-import Dispaly from "./RouterCom";
+import ROUTING from "./RouterCom";
 function App() {
   return (
     <div className="App">
-      <Dispaly></Dispaly>
+      <ROUTING></ROUTING>
     </div>
   );
 }
