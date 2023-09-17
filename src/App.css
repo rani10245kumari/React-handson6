@@ -9,7 +9,7 @@ body {
   display: flex;
   height: 100px;
   justify-content: space-evenly;
-  background-color: rgb(204, 142, 204);
+  background-image: linear-gradient(rgb(250, 143, 250), pink);
   font-size: 32px;
   font-family: 🏸;
   margin-top: 5px;
@@ -30,6 +30,7 @@ a {
   margin-left: 35px;
   color: rgb(37, 2, 24);
 
+
 }
 
 .Contact {
@@ -44,19 +45,20 @@ a {
   position: absolute;
   top: 120px;
   left: 150px;
-  color: rgb(5, 54, 14);
-  font-size: larger;
+  color: rgb(193, 224, 189);
+  font-size: 48px;
 }
 
 .table {
   position: absolute;
   top: 300px;
-  background-color: rgb(171, 133, 182);
+  background-color: rgb(190, 147, 202);
   color: rgb(61, 3, 27);
   font-size: 30px;
   border-collapse: collapse;
   width: 80%;
   text-align: center;
+  border: 5px double rgb(61, 17, 75);
 }
 
 .btn1 {
@@ -82,7 +84,7 @@ a {
   gap: 20px;
   flex-wrap: wrap;
   height: 500px;
-  width: 700px;
+  width: 750px;
 
 }
 
@@ -90,10 +92,20 @@ a {
   height: 52px;
   width: 280px;
   font-size: 26px;
-  text-align: center;
+  color: rgb(59, 2, 65);
   border: 2px solid rgb(8, 8, 65);
   border-radius: 10px;
   background-color: thistle;
+}
+
+.form input {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  font-size: 28px;
+  border: 0px dotted transparent;
+  text-align: center;
+  position: relative;
 }
 
 .update {
